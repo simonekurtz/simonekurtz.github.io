@@ -5,20 +5,25 @@ body {
     text-align: left;
 }
 
+.container sidebar-sticky{
+    
+}
+
 .sidebar{
-  position: fixed;
-  height: 200px;
+  position: relative;
+  height: 250px;
   width: 1500px;
   text-align: left;
   background-image: url("blurred-background-11.png");
   margin: 0;
   padding: 0;
+  left: 5px;
   color: white;
 }
 
 .sidebar h1 {
-    position: absolute;
-    top: 10px;
+    float: left;
+    top: 0px;
     font-size: 60px;
     text-shadow: 3px 3px #F54545;
 }
@@ -26,7 +31,9 @@ body {
 .sidebar h2 {
     font-size: 20px;
     display: inline;
-    float: left;
+    position: absolute;
+    left: 30px;
+    top: 120px;
 }
 
 .sidebar li {
@@ -41,6 +48,7 @@ body {
 }
 
 a {
+    position: absolute;
     color: #DDF0ED;
     text-decoration: none;
 }
@@ -50,5 +58,5 @@ div {
 }
 
 a:visited {
-    color: #C2C2C2;
+    color: #DDF0ED;
 }
