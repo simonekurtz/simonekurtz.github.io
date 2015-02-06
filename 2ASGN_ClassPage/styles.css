@@ -1,0 +1,54 @@
+body {
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #3D3D3D;
+    text-align: left;
+}
+
+.sidebar{
+  position: fixed;
+  height: 200px;
+  width: 1500px;
+  text-align: left;
+  background-image: url("blurred-background-11.png");
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.sidebar h1 {
+    position: absolute;
+    top: 10px;
+    font-size: 60px;
+    text-shadow: 3px 3px #F54545;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    display: inline;
+    float: left;
+}
+
+.sidebar li {
+    position: absolute;
+    top: 20px;
+    display: inline;
+}
+
+.sidebar a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+    color: #DDF0ED;
+    text-decoration: none;
+}
+
+div {
+    padding: 20px;
+}
+
+a:visited {
+    color: #C2C2C2;
+}
