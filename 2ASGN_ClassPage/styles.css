@@ -60,3 +60,7 @@ div {
 a:visited {
     color: #DDF0ED;
 }
+
+.post-title, h1{
+        text-shadow: 2px 2px #9FC7BB;
+}
