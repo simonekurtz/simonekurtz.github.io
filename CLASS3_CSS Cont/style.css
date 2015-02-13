@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 600px;
+    background-color: white;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+.column {
+    width: 200px;
+    background-color: lime;
+    float: left;
+    padding: 10px;
+    border: 4px dashed blue;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+
+}
+
+/*.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /*padding: 20px;
+    border: 20px solid lime;
+    /*border-style: solid;
+    border-color: lime;
+    border-width: 20px;
+    margin: 40px;*/
+}

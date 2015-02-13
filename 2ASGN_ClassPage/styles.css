@@ -1,22 +1,26 @@
-body {
+html, body {
     font-size: 15px;
     font-family: Helvetica, Arial, sans-serif;
     color: #3D3D3D;
     text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 .container sidebar-sticky{
     
 }
 
+:nth-child(0) {
+    background-color: black;
+}
+
+
 .sidebar{
-  position: relative;
   height: 250px;
   width: 1500px;
   text-align: left;
   background-image: url("blurred-background-11.png");
-  margin: 0;
-  padding: 0;
   left: 5px;
   color: white;
 }
@@ -31,15 +35,13 @@ body {
 .sidebar h2 {
     font-size: 20px;
     display: inline;
-    position: absolute;
     left: 30px;
-    top: 120px;
+    top: 200px;
 }
 
 .sidebar li {
-    position: absolute;
-    top: 20px;
     display: inline;
+    top: 20px;
 }
 
 .sidebar a:hover {
@@ -61,6 +63,6 @@ a:visited {
     color: #DDF0ED;
 }
 
-.post-title, h1{
+.post-title h1{
         text-shadow: 2px 2px #9FC7BB;
 }
