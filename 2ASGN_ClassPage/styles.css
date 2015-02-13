@@ -7,17 +7,36 @@ html, body {
     padding: 0;
 }
 
-.container sidebar-sticky{
-    
+.sidebar h2:nth-child(3) {
+    position: relative;
+    top: 80px;
+    left: 20;
 }
 
-:nth-child(0) {
+.sidebar h2:nth-child(5) {
+    position: relative;
+    top: 60px;
+    left: 160px;
+}
+
+.sidebar h2:nth-child(7) {
+    position: relative;
+    top: 42px;
+    left: 350px;
+}
+
+.sidebar h2:nth-child(9) {
+    position: relative;
+    top: 23px;
+    left: 540px;
+}
+
+.sidebar il:nth-child(){
     background-color: black;
 }
 
-
 .sidebar{
-  height: 250px;
+  height: 200px;
   width: 1500px;
   text-align: left;
   background-image: url("blurred-background-11.png");
@@ -27,21 +46,41 @@ html, body {
 
 .sidebar h1 {
     float: left;
-    top: 0px;
+    position: absolute;
+    height: 200px;
+    width: 1500;
+    top: -10px;
     font-size: 60px;
     text-shadow: 3px 3px #F54545;
 }
 
+.times {
+    margin: px;
+}
+
 .sidebar h2 {
+    margin-top: 0px;
+    margin: 0;
     font-size: 20px;
+    float: left;
+    height: 20px;
+    width: 1000;
+    top: 0px;
+}
+
+.sidebar ul {
+    position: relative;
     display: inline;
-    left: 30px;
-    top: 200px;
+    height: 200px;
+    width: 1500px;
+    top: 60px;
+    display: inline;
+    padding: 10px;
 }
 
 .sidebar li {
     display: inline;
-    top: 20px;
+    margin: 10px;
 }
 
 .sidebar a:hover {
@@ -50,7 +89,6 @@ html, body {
 }
 
 a {
-    position: absolute;
     color: #DDF0ED;
     text-decoration: none;
 }
@@ -64,5 +102,9 @@ a:visited {
 }
 
 .post-title h1{
-        text-shadow: 2px 2px #9FC7BB;
+    text-shadow: 2px 2px #9FC7BB;
+}
+
+.post-title h2{
+    color: #5D5D5D;
 }
