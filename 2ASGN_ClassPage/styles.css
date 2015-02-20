@@ -14,38 +14,6 @@ html, body {
     left: 20;
 }
 
-/*.sidebar h2:nth-child(3) {
-    position: relative;
-    top: 80px;
-    left: 20;
-}
-
-.sidebar h2:nth-child(5) {
-    position: relative;
-    top: 60px;
-    left: 160px;
-}
-
-.sidebar h2:nth-child(7) {
-    position: relative;
-    top: 42px;
-    left: 350px;
-}
-
-.sidebar h2:nth-child(9) {
-    position: relative;
-    top: 23px;
-    left: 540px;
-}
-
-.sidebar > il:nth-child(){
-    background-color: black;
-}
-
-.sidebar a:nth-child(){
-    background-color: black;
-}*/
-
 .sidebar{
   height: 220px;
   width: 1500px;
@@ -85,11 +53,6 @@ html, body {
     background-color: ;
 }
 
-ul {
-    margin-top: 0p;
-    top: 0px;
-}
-
 ul:not(.times)
 {
     position: relative;
@@ -97,18 +60,7 @@ ul:not(.times)
     padding: 5px;
     top: 100px;
     left: -850px;
-    background-color: ;
 }
-
-/*.sidebar ul {
-    position: relative;
-    display: inline;
-    height: 200px;
-    width: 1500px;
-    top: 60px;
-    padding: 10px;
-    background-color: black;
-}*/
 
 .sidebar li:nth-child() {
     background-color: black;
@@ -122,6 +74,11 @@ ul:not(.times)
 .sidebar a:hover {
   color: white;
   text-decoration: none;
+}
+
+small {
+    position: relative;
+    top: 75px;
 }
 
 div {
