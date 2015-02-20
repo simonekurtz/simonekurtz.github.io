@@ -31,7 +31,11 @@ html, body {
     left: 540px;
 }
 
-.sidebar il:nth-child(){
+.sidebar > il:nth-child(){
+    background-color: black;
+}
+
+.sidebar a:nth-child(){
     background-color: black;
 }
 
@@ -88,23 +92,23 @@ html, body {
   text-decoration: none;
 }
 
+div {
+    padding: 20px;
+}
+
 a {
     color: #DDF0ED;
     text-decoration: none;
-}
-
-div {
-    padding: 20px;
 }
 
 a:visited {
     color: #DDF0ED;
 }
 
-.post-title h1{
+.post-title {
     text-shadow: 2px 2px #9FC7BB;
 }
 
-.post-title h2{
+.post-title {
     color: #5D5D5D;
 }
