@@ -8,6 +8,13 @@ html, body {
 }
 
 .sidebar h2:nth-child(3) {
+    padding-top: 100px;
+    padding-bottom: 5px;
+    top: 80px;
+    left: 20;
+}
+
+/*.sidebar h2:nth-child(3) {
     position: relative;
     top: 80px;
     left: 20;
@@ -37,10 +44,10 @@ html, body {
 
 .sidebar a:nth-child(){
     background-color: black;
-}
+}*/
 
 .sidebar{
-  height: 200px;
+  height: 220px;
   width: 1500px;
   text-align: left;
   background-image: url("blurred-background-11.png");
@@ -59,27 +66,52 @@ html, body {
 }
 
 .times {
+    position: absolute;
+    top: 85px;
+    left: -10;
     margin: px;
 }
 
 .sidebar h2 {
-    margin-top: 0px;
-    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin: 0px;
     font-size: 20px;
     float: left;
     height: 20px;
-    width: 1000;
+    width: 1000px;
+    top: 20px;
+    background-color: ;
+}
+
+ul {
+    margin-top: 0p;
     top: 0px;
 }
 
-.sidebar ul {
+ul:not(.times)
+{
+    position: relative;
+    margin: 0px;
+    padding: 5px;
+    top: 100px;
+    left: -850px;
+    background-color: ;
+}
+
+/*.sidebar ul {
     position: relative;
     display: inline;
     height: 200px;
     width: 1500px;
     top: 60px;
-    display: inline;
     padding: 10px;
+    background-color: black;
+}*/
+
+.sidebar li:nth-child() {
+    background-color: black;
 }
 
 .sidebar li {
