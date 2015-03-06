@@ -1,0 +1,18 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    background: url(images/splash.JPG);
+    background-size: cover;
+    z-index: 1;
+}
+
+.splash header {
+    position: relative;
+}
+
+.box {
+    position: relative;
+    background-color: white;
+    width: 200px;
+    height: 200;
+    z-index: 100;
+}
