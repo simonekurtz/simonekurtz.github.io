@@ -1,16 +1,21 @@
 body {
     padding: 0px;
-    cursor: url(images/left-arrow.cur), none;
+    cursor: url("images/left-arrow-resize.png"), auto;
     font-family: helvetica, arial, sans-serif;
     background: url(images/IMG_3008.JPG);
     background-size: cover;
     z-index: 1;
 }    
 
+a:hover{
+    cursor:url("images/left-pointer-resize.png"), auto;
+}
+
 .title {
-    background: url(images/splash-image.png);
-    width: 600px;
-    height: 150px;
+    background: url("images/title_big-resize.png");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px; 
 }
 
 .splash header {
