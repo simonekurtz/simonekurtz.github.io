@@ -38,3 +38,9 @@ a:hover{
     padding: 1%;
     top: -11px;
 }
+
+.galleryViewer {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
