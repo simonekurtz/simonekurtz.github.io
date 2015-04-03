@@ -1,18 +1,25 @@
 body {
+    padding: 0px;
+    cursor: url(images/left-arrow.cur), auto;
     font-family: helvetica, arial, sans-serif;
-    background: url(images/splash.JPG);
+    background: url(images/IMG_3008.JPG);
     background-size: cover;
     z-index: 1;
+}    
+
+.title {
+    background: url(images/splash-image.png);
+    width: 600px;
+    height: 150px;
 }
 
 .splash header {
     position: relative;
+    
 }
 
-.box {
-    position: relative;
-    background-color: white;
-    width: 200px;
-    height: 200;
-    z-index: 100;
+.red {
+    height: 200px;
+    width:200px;
+    background: url(images/left-pointer.png);
 }

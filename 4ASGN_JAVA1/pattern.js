@@ -18,4 +18,8 @@ for (blue; blue <= 100; blue++) {
 
 result * green
 
-green * blue == red * yellow
+green * blue < red * yellow
+
+if (red == green - 1 || blue == yellow) {
+   console.log('Colors are math!');
+}
