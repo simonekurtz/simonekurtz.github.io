@@ -17,9 +17,3 @@ body {
     position: relative;
     
 }
-
-.red {
-    height: 200px;
-    width:200px;
-    background: url(images/left-pointer.png);
-}
