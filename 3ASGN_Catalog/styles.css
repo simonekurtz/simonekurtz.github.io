@@ -1,6 +1,6 @@
 body {
     padding: 0px;
-    cursor: url(images/left-arrow.cur), auto;
+    cursor: url(images/left-arrow.cur), none;
     font-family: helvetica, arial, sans-serif;
     background: url(images/IMG_3008.JPG);
     background-size: cover;
