@@ -1,17 +1,17 @@
 body {
     margin: 0px;
-    cursor: url("images/left-arrow-resize.png"), auto;
+    cursor: url("images/icons/left-arrow-resize.png"), auto;
     font-family: helvetica, arial, sans-serif;
     background-color: gray;
-    z-index: 1000;
 }    
 
 a:hover{
-    cursor:url("images/left-pointer-resize.png"), auto;
+    cursor:url("images/icons/left-pointer-resize.png"), auto;
 }
 
 .menu {
     position: absolute;
+    width: 350px;
     left: 10%;
     top: 25px;
 }
@@ -39,8 +39,10 @@ a:hover{
     top: -11px;
 }
 
-.galleryViewer {
-    position: relative;
-    width: 300px;
-    height: 200px;
+.content {
+    background-color: red;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto; 
+    margin-top: 100px;
 }
