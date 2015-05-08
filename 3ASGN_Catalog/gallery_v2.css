@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    cursor: url("images/icons/left-arrow-resize.png"), auto;
+    font-family: Garamond;
+    background: url(images/images/IMG_3008.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1000;
+}    
+
+h2 {
+	font-family: Garamond;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: Garamond;
+    color: white;
+	font-size: 13px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+h4 {
+    font-family: Garamond;
+	text-decoration: none;
+	font-size: 20px;  
+}
+
+p {
+    font-family: Garamond;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor:url("images/icons/left-pointer-resize.png"), auto;
+}
+
+.menu {
+    position: absolute;
+    width: 400px;
+    left: 10%;
+    top: 40px;
+    z-index: 1100;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.header-image {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+
+/*
+.gallerylink {
+    position: relative;
+    padding: 1%;
+}
+
+.submitlink {
+    position: relative;
+    padding: 1%;
+    top: -7px;
+}
+
+.aboutlink {
+    position: relative;
+    padding: 1%;
+    top: -11px;
+}
+*/
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 86%;
+    width: 100%;
+    background-color: white;
+    z-index: 1100;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+/* ------ START GALLERY CSS ----- */
+
+.Prompts {
+    position: absolute;
+    left: 30px;
+    width: 275px;
+    height: 200px;
+}
+
+.Lettering {
+        position: absolute;
+    left: 20px;
+    width: 275px;
+    height: 200px;
+}
+
+.HandShots {
+    width: 275px;
+    height: 200px;
+}
+
+.Archive {
+    width: 275px;
+    height: 200px;
+}
+
+.Video {
+    width: 275px;
+    height: 200px;
+}
+
+/* ------ END GALLERY CSS ----- */
+
+.longwrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300%;
+}
+
+.wrappercontent {
+    margin: 40px;
+}
+
+.c1 {
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    background-color:red;
+}
+
+.c2 {
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    background-color:yellow;
+}
+
+.c3 {
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    background-color:blue;
+}

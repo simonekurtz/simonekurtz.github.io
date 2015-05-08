@@ -6,7 +6,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 1000;
-}   
+}    
 
 h2 {
 	font-family: Garamond;
@@ -300,8 +300,6 @@ a:hover{
 
 /* ------ END GALLERY CSS ----- */
 
-
-
 h4 {
     position: fixed;
     left: 45px;
@@ -310,15 +308,26 @@ h4 {
 	font-size: 20px;  
 }
 
+.infoBar {
+    position: fixed;
+    padding-left: 45px;
+    padding-right: 20px;
+    top: 155px;
+    width: 325px;
+    height: 510px;
+    background-color: white;
+    z-index: 5000;
+}
+
 .longwrapper {
     margin-left: auto;
     margin-right: auto;
-    width: 2500px;
+    width: 2800px;
 }
 
 .wrappercontent {
     margin-top: 60px;
-    margin-left: 45px;
+    margin-left: 375px;
 }
 
 .c1 {

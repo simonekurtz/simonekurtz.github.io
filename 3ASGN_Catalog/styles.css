@@ -1,7 +1,7 @@
 body {
     margin: 0px;
-    cursor: url("images/left-arrow-resize.png"), auto;
-    font-family: helvetica, arial, sans-serif;
+    cursor: url("images/icons/left-arrow-resize.png"), auto;
+    font-family: Garamond;
     background: url(images/images/IMG_3008.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -9,27 +9,31 @@ body {
 }    
 
 a:hover{
-    cursor:url("images/iconsleft-pointer-resize.png"), auto;
-}
-
-.splash header {
-    position: absolute;
+    cursor:url("images/icons/left-pointer-resize.png"), auto;
 }
 
 .menu {
     position: absolute;
-    width: 350px;
+    width: 400px;
     left: 10%;
-    top: 25px;
+    top: 40px;
+    z-index: 1100;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    padding: 20px;
 }
 
 .header-image {
     position: absolute;
-    top:10px;
+    top: 20px;
     right: 10%;
 }
 
-.gallerylink {
+/*.gallerylink {
     position: relative;
     padding: 1%;
 }
@@ -52,13 +56,4 @@ a:hover{
     padding: 1%;
     top: -11px;
 }
-
-.galleryViewer {
-    position: absolute;
-    width: 500px;
-    height: 300px;
-    background-color: red;
-    z-index: 1100;
-    
-    
-}
+*/

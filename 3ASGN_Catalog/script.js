@@ -5,13 +5,26 @@
 	var randomimages = ["IMG_2998.JPG", "IMG_3003.jpg", "IMG_3008.jpg", "IMG_3018.jpg", "IMG_3043.jpg"];
 
 
-function blah() {
-    var randselecttwo = "url(images/images/" + randomimages[Math.floor(Math.random()*randomimages.length)] + ")";
-$("body").css("background-image",randselecttwo);
+function randselect() {
+    var slideshow = "url(images/images/" + randomimages[Math.floor(Math.random()*randomimages.length)] + ")";
+    
+$("body").css("background-image",slideshow);
+
 }
 
+$(window).load(function() {
+    $(".element").height(($(window.height)-200) + "px");
+});
 
-setInterval("blah()",2000);
+$(window).resize(function() {
+    $(".element").height(($(window.height)-200) + "px");
+});
+
+setInterval("randselect()",3000);
+
+//setTimeout("randselect()",);
+
+
 
 
 // var preload=new Array()

@@ -71,12 +71,6 @@ a:hover{
     text-justify: inter-word;
 }
 
-.content2 {
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 5%;
-}
-
 h2 {
 	font-family: Garamond;
 	text-decoration: none;
@@ -87,4 +81,29 @@ p {
     font-family: Garamond;
     font-size: 15px;
     line-height: 20px;
+}
+
+textarea {
+    margin-top: -10px;
+    width: 400px;
+    height: 100px;
+}
+
+.UploadButton {
+    width: 100px;
+    height: 40px;
+    margin-top: -10px;
+   
+}
+
+select {
+    margin-top: 10px;
+}
+
+.submitButton {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
 }

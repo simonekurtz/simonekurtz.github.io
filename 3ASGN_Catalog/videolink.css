@@ -1,8 +1,44 @@
+.exit {
+    font-family: 'Raleway', helvetica;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    right: 90px;
+    font-size: 20px;
+    color: #ffffff;
+    width: 30px;
+    height: 20px;
+    background-color: #424242;
+    z-index: 11000;   
+}
+
+.OverlayElement {
+    position: fixed;
+    top: 50px;
+    margin-left: 150px;
+    width: 1040px;
+    height: 650px;
+    background-color: black;
+    box-shadow: 1px 1px 100px 10px black;
+    z-index: 10500;
+}
+
+.Overlay {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: 10000;
+}
+
 body {
     margin: 0px;
     cursor: url("images/icons/left-arrow-resize.png"), auto;
     font-family: Garamond;
-    background: url(images/images/IMG_3008.jpg);
+    background: url(images/images/IMG_3018.png);
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 1000;
@@ -38,6 +74,7 @@ a:hover{
 }
 
 .menu {
+    opacity: .5;
     position: absolute;
     width: 400px;
     left: 10%;
@@ -53,6 +90,7 @@ a:hover{
 }
 
 .header-image {
+    opacity: .5;
     position: absolute;
     top: 20px;
     right: 10%;
